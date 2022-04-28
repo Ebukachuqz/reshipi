@@ -29,13 +29,7 @@ const Categories = () => {
     <>
       <Grid container gap={3} justifyContent={"center"} alignItems={"center"}>
         <Grid item>
-          <Link
-            to={"/cuisine/italian"}
-            activestyle={{
-              fontWeight: "bold",
-              background: "red",
-            }}
-          >
+          <Link to={"/cuisine/italian"}>
             <LocalPizzaIcon fontSize="small" />
             <Typography variant="caption">Italian</Typography>
           </Link>

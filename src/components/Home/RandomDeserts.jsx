@@ -1,4 +1,3 @@
-import { Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import getRandomDeserts from "../../API/getRandomDeserts";
 import CardWrapper from "../CardWrapper";
@@ -15,7 +14,7 @@ const RandomDeserts = () => {
 
   return (
     <>
-      <Typography variant="h6">Deserts</Typography>
+      <h2>Our Nice Dessert Picks</h2>
       <Splide
         options={{
           perPage: 3,

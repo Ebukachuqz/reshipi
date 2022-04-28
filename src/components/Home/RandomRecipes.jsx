@@ -1,4 +1,3 @@
-import { Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import getRandomRecipes from "../../API/getRandomRecipes";
 import CardWrapper from "../CardWrapper";
@@ -15,7 +14,7 @@ const RandomRecipes = () => {
 
   return (
     <>
-      <Typography variant="h6">Random Recipes</Typography>
+      <h2>Random Recipes</h2>
       <Splide
         options={{
           perPage: 4,
